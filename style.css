@@ -1,0 +1,147 @@
+body {
+	background: #EDECEB radial-gradient(circle closest-corner at 50% -43px, #FFFFFF, #FFFFFF, #E8E7E6) no-repeat;
+	font-family: 'Helvectia', sans-serif;
+	color: #333334;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.logo {
+	width: 350px;
+	margin-top: 50px;
+}
+
+h1 {
+	margin-bottom: 50px;
+}
+
+.features {
+	display: flex;
+	flex-wrap: wrap;
+	width: 1050px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.feature {
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FDFFC2;
+}
+
+.support {
+	background-color: white;
+	width: 500px;
+}
+
+.about {
+	width: 500px;
+}
+
+.versions {
+	padding: 5px;
+}
+
+.description {
+	padding: 20px;
+	background-color: #FDFFC2;
+}
+
+.full, 
+.part, 
+.none {
+	display: inline-block;
+    width: 90px;
+    height: 82px;
+    background-color: #00D200;
+    color: white;
+    font-weight: bold;
+    font-size: 44px;
+    vertical-align: middle;
+    padding-top: 8px;
+    margin-bottom: 10px;
+}
+
+.label {
+	font-size: 15px;
+    padding-bottom: 2px;
+}
+
+.part {
+	background-color: #FDA300;
+}
+
+.none {
+	background-color: rgba(255, 0, 0, 0.23);
+	color: #333;
+}
+
+.about h1 {
+	background-color: #F5CE35;
+	margin: 0;
+	padding: 10px;
+	font-size: 20px;
+}
+.about p {
+	background-color: white;
+	margin: 0;
+	padding: 15px;
+	font-size: 16px;
+}
+
+b, a {
+	color: #8E7100;
+}
+
+.copyright {
+	color: gray;
+	margin-bottom: 30px;
+}
+
+.commit {
+	margin-top: 20px;
+}
+
+.id {
+	display: inline-block;
+    padding: 5px;
+    background-color: #7EFF7E;
+    color: black;
+}
+
+.cta {
+	display: inline-block;
+    padding: 5px;
+    background-color: #00D200;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333334;
+}
+
+/* Mobile Layout */
+@media(max-width: 1015px){
+	.logo{
+		margin-top: 20px;
+	}
+	.features{
+		width: auto;
+	}
+	.feature{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.about, .support{
+		width: auto;
+	}
+}
+@media(max-width: 400px){
+	.logo{
+		width: 80%;
+	}
+}

@@ -1,0 +1,195 @@
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Is Sponge ready yet?</title>
+	<link type="text/css" href="style.css?v7" rel='stylesheet'>
+	<link rel="icon" type="image/png" href="https://cdn.spongepowered.org/uploads/default/original/2X/9/9ba706a80e45cf427617525ee2a19fad7bb6b109.png">
+	<!--<link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+-->
+</head>
+
+<body>
+	<div class="container">
+		<img class="logo" src="images/logo.png">
+		<h1>Is it ready yet?</h1>
+
+		<div class="features">
+			<div class="feature">
+				<div class="about">
+					<h1>Runnable Server Jar</h1>
+					<p>If you can't use it, there's not much point using it. At this stage, a jar file which will launch an accessible Minecraft server will be avaliable.</p>
+				</div>
+				<div class="support">
+					<div class="versions">
+						<div class="full"><div class="label">API</div>&#10003;</div>
+						<div class="full"><div class="label">IMPL</div>&#10003;</div>
+					</div>
+					<div class="description">
+						Sponge is now in its <b>Beta</b> release. Documentation and installation notes can be downloaded <a href="https://docs.spongepowered.org/en/server/getting-started/installation.html">here</a>. It is built as a Forge mod, which requires the latest Forge server. Stay up to date on the <a href="http://forums.spongepowered.org">forums</a>.
+						<div class="commit"><div class="cta">Complete</div></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="feature">
+				<div class="about">
+					<h1>Plugin Support</h1>
+					<p>Allows developers to create their own plugins for the Sponge platform, which can be installed to modify the behaviour of the server without changing native code.</p>
+				</div>
+				<div class="support">
+					<div class="versions">
+						<div class="full"><div class="label">API</div>&#10003;</div>
+						<div class="full"><div class="label">IMPL</div>&#10003;</div>
+					</div>
+					<div class="description">
+						Full support has been included for some time. SpongeAPI can be used to write plugins without worrying about the implementation, and SpongeForge provides a working implementation.
+						<div class="commit"><div class="cta">Complete</div></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="feature">
+				<div class="about">
+					<h1>Inventory API</h1>
+					<p>Allows developers to modify the contents of an inventory, which is a neccessity for servers which want to have control over their players.</p>
+				</div>
+				<div class="support">
+					<div class="versions">
+						<div class="full"><div class="label">API</div>&#10003;</div>
+						<div class="part"><div class="label">IMPL</div>&#189;</div>
+					</div>
+					<div class="description">
+						The API is completed, and Mumfrey has provided a basic implementation of the most important features to SpongeForge.
+						<div class="commit"><div class="cta">Complete</div></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="feature">
+				<div class="about">
+					<h1>Events API</h1>
+					<p>Support for events called by the server, cancellation of these events and also custom events that developers can create.</p>
+				</div>
+				<div class="support">
+					<div class="versions">
+						<div class="full"><div class="label">API</div>&#10003;</div>
+						<div class="full"><div class="label">IMPL</div>&#10003;</div>
+					</div>
+					<div class="description">
+						The majority of events are now complete, and documentation is provided <a href="https://docs.spongepowered.org/en-GB/plugin/events.html">here</a>. Events may be added in the future, but the most important events are already avaliable for use.
+						<div class="commit"><div class="cta">Complete</div></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="feature">
+				<div class="about">
+					<h1>Text API</h1>
+					<p>Provides a way to create messages which can be sent to players, as well as support for message click/hover events.</p>
+				</div>
+				<div class="support">
+					<div class="versions">
+						<div class="full"><div class="label">API</div>&#10003;</div>
+						<div class="part"><div class="label">IMPL</div>&#189;</div>
+					</div>
+					<div class="description">
+						The API is complete, and the implementation is very close to being finalized. There are still a small number of bugs which need to be fixed, and these can be tracked on GitHub.
+						<div class="commit"><div class="cta">Complete</div></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="feature">
+				<div class="about">
+					<h1>Configuration</h1>
+					<p>Support for giving users flexibility when it comes to the different settings which a plugin provides. Replacement for YML in Bukkit.</p>
+				</div>
+				<div class="support">
+					<div class="versions">
+						<div class="full"><div class="label">API</div>&#10003;</div>
+						<div class="full"><div class="label">IMPL</div>&#10003;</div>
+					</div>
+					<div class="description">
+						The HOCON format is implemented, and <a href="https://docs.spongepowered.org/en-GB/plugin/configuration/index.html">documentation</a> is avaliable. This may adapt as Sponge grows, but is finalized for now.
+						<div class="commit"><div class="cta">Complete</div></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="feature">
+				<div class="about">
+					<h1>Data Manipulators</h1>
+					<p>Lets developers access and modify data, for example, different properties relating to an entity.</p>
+				</div>
+				<div class="support">
+					<div class="versions">
+						<div class="part"><div class="label">API</div>&#189;</div>
+						<div class="part"><div class="label">IMPL</div>&#189;</div>
+					</div>
+					<div class="description">The majority of the Data API is now complete, but some API structure and implementations are still missing or waiting upon another part of the Sponge API. Follow the progress <a href="https://github.com/SpongePowered/SpongeForge/issues/8">here</a>.
+					<div class="commit"><a href="https://github.com/SpongePowered/SpongeCommon/issues/8"><div class="id">#8</div><div class="cta">View Issue</div></a></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="feature">
+				<div class="about">
+					<h1>Economy API</h1>
+					<p>An API provided to help make economy plugins more consistent and making linking between them easier.</p>
+				</div>
+				<div class="support">
+					<div class="versions">
+						<div class="full"><div class="label">API</div>&#10003;</div>
+						<div class="part"><div class="label">IMPL</div>&#189;</div>
+					</div>
+					<div class="description">
+						A <a href="https://github.com/SpongePowered/SpongeAPI/commit/79493344aee53144cc4f04076240c1f7a3628031">commit</a> by Aaron1011 added the basic economy API. There is currently no default implementation planned, and so getting an implementation will depend on the work of third party developers.
+						<div class="commit"><a href="https://github.com/SpongePowered/SpongeAPI/pull/995"><div class="id">#995</div><div class="cta">View PR</div></a></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="feature">
+				<div class="about">
+					<h1>World Generation</h1>
+					<p>Access to BlockPopulators allowing for the methods used for world generation to be customized.</p>
+				</div>
+				<div class="support">
+					<div class="versions">
+						<div class="full"><div class="label">API</div>&#10003;</div>
+						<div class="part"><div class="label">IMPL</div>&#189;</div>
+					</div>
+					<div class="description">
+						API <a href="https://github.com/SpongePowered/SpongeAPI/commit/c8d638ee28ec79ae1c76bd93832e3ba1d464e3a4">phase one</a> has been pushed. It is mostly implemented, but there is still work to be done.
+						<div class="commit"><a href="https://github.com/SpongePowered/SpongeCommon/pull/253"><div class="id">#253</div><div class="cta">View PR</div></a></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="feature">
+				<div class="about">
+					<h1>Clientside APIs</h1>
+					<p>Provides developers with the ability to send custom data to the client, such as new textures and sounds.</p>
+				</div>
+				<div class="support">
+					<div class="versions">
+						<div class="none"><div class="label">API</div>&#10008;</div>
+						<div class="none"><div class="label">IMPL</div>&#10008;</div>
+					</div>
+					<div class="description">
+						This has been discussed very vaguely. Work on this will likely begin once the Sponge servers are complete.
+						<div class="commit"><div class="cta">Future Project</div></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="copyright">
+			<a href="http://spongepowered.org">SpongePowered</a> and the <a href="http://spongepowered.org">SpongePowered</a> logo do not belong to me, and are used within the asset guidelines provided.
+		</div>
+
+	</div>
+</body>
+
+</html>
